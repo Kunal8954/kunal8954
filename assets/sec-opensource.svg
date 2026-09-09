@@ -32,4 +32,13 @@
     <animate attributeName="cx" from="48" to="200" dur="0.8s" begin="0.7s" fill="freeze" calcMode="spline" keySplines="0.42 0 0.58 1"/>
     <animate attributeName="opacity" values="0;0.8;0" dur="0.8s" begin="0.7s" fill="freeze"/>
   </circle>
+
+  <!-- 7 merged badge -->
+  <g opacity="0" transform="translate(222,13) scale(0.85)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.15s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" additive="sum" from="0,6" to="0,0" dur="0.4s" begin="1.15s" fill="freeze"/>
+    <rect x="0" y="0" width="88" height="22" rx="11" fill="rgba(231,76,60,0.10)" stroke="#e74c3c" stroke-width="1.2"/>
+    <circle cx="14" cy="11" r="3.2" fill="#e74c3c"/>
+    <text x="24" y="15.5" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#e74c3c" letter-spacing="0.3">7 merged</text>
+  </g>
 </svg>
