@@ -1,87 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 100" width="700" height="100">
+<svg viewBox="0 0 700 160" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Shine gradient band — diagonal white sweep -->
-    <linearGradient id="shineBand" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="44%" stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="49%" stop-color="#ffffff" stop-opacity="0.28"/>
-      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.55"/>
-      <stop offset="51%" stop-color="#ffffff" stop-opacity="0.28"/>
-      <stop offset="56%" stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
-    </linearGradient>
-    <!-- Metallic vertical text gradient -->
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="50%" stop-color="#e0e0e0"/>
-      <stop offset="100%" stop-color="#aaaaaa"/>
-    </linearGradient>
-    <!-- Clip for shine sweep — identical geometry to the visible letters -->
-    <clipPath id="textClip">
-      <text x="350" y="52" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" text-anchor="middle" letter-spacing="4">KUNAL</text>
-    </clipPath>
-    <filter id="cursorGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+    <radialGradient id="tglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e8543a" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#e8543a" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softblur"><feGaussianBlur stdDeviation="10"/></filter>
+    <style>
+      .nm { font-family: 'Courier New', monospace; font-weight:700; font-size:64px; fill:#f2f2f2; }
+      .sub { font-family: 'Courier New', monospace; font-size:19px; fill:#8a8a94; letter-spacing:1px; }
+    </style>
   </defs>
 
-  <!-- ===== TYPING TEXT — "KUNAL" (left-to-right stark reveal) =====
-       Each letter is its own absolutely-positioned <text> so they cannot
-       overlap. Staggered by 0.2s each, dur 0.3s → "K" then "U" then "N"... -->
+  <ellipse cx="350" cy="70" rx="220" ry="60" fill="url(#tglow)" filter="url(#softblur)"/>
 
-  <!-- Letter K -->
-  <text x="222" y="52" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="url(#textGrad)" opacity="0">K
-    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.2s" fill="freeze"/>
+  <text x="254" y="88" text-anchor="start" class="nm">
+    <tspan opacity="0">K<animate attributeName="opacity" begin="0.0s" dur="0.25s" fill="freeze" to="1"/></tspan><tspan opacity="0">u<animate attributeName="opacity" begin="0.15s" dur="0.25s" fill="freeze" to="1"/></tspan><tspan opacity="0">n<animate attributeName="opacity" begin="0.30s" dur="0.25s" fill="freeze" to="1"/></tspan><tspan opacity="0">a<animate attributeName="opacity" begin="0.45s" dur="0.25s" fill="freeze" to="1"/></tspan><tspan opacity="0">l<animate attributeName="opacity" begin="0.60s" dur="0.25s" fill="freeze" to="1"/></tspan>
   </text>
 
-  <!-- Letter U -->
-  <text x="275" y="52" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="url(#textGrad)" opacity="0">U
-    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.4s" fill="freeze"/>
-  </text>
+  <rect x="447" y="46" width="3" height="46" fill="#e8543a" opacity="0">
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.01;0.85;1" begin="0.60s" dur="1.6s" fill="freeze"/>
+  </rect>
 
-  <!-- Letter N -->
-  <text x="330" y="52" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="url(#textGrad)" opacity="0">N
-    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.6s" fill="freeze"/>
-  </text>
-
-  <!-- Letter A -->
-  <text x="388" y="52" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="url(#textGrad)" opacity="0">A
-    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.8s" fill="freeze"/>
-  </text>
-
-  <!-- Letter L -->
-  <text x="444" y="52" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="url(#textGrad)" opacity="0">L
-    <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.0s" fill="freeze"/>
-  </text>
-
-  <!-- ===== SHINE / SHEEN SWEEP (3s loop, clipped to invisible "KUNAL") ===== -->
-  <g clip-path="url(#textClip)">
-    <rect x="-240" y="0" width="240" height="100" fill="url(#shineBand)" opacity="0.85">
-      <animateTransform attributeName="transform" type="translate" from="-240,0" to="940,0" dur="3s" begin="1.6s" repeatCount="indefinite"/>
-    </rect>
-  </g>
-
-  <!-- ===== BLINKING CURSOR (appears after last letter) ===== -->
-  <g filter="url(#cursorGlow)">
-    <rect x="472" y="22" width="3" height="36" fill="#e74c3c" opacity="0">
-      <animate attributeName="opacity" values="0;0;0.9;0.9;0;0" dur="1s" begin="1.2s" repeatCount="indefinite"/>
-    </rect>
-  </g>
-
-  <!-- ===== RED ACCENT UNDERLINE ===== -->
-  <g opacity="0">
-    <animate attributeName="opacity" from="0" to="0" dur="1s" begin="0s" fill="freeze"/>
-    <line x1="222" y1="62" x2="460" y2="62" stroke="#e74c3c" stroke-width="1.5"
-          stroke-dasharray="238" stroke-dashoffset="238" opacity="0">
-      <animate attributeName="stroke-dashoffset" from="238" to="0" dur="1.2s" begin="1.4s" fill="freeze" calcMode="spline" keySplines="0.42 0 0.58 1"/>
-      <animate attributeName="opacity" from="0" to="0.45" dur="1.2s" begin="1.4s" fill="freeze"/>
-    </line>
-  </g>
-
-  <!-- ===== TAGLINE ===== -->
-  <text x="350" y="80" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" text-anchor="middle" fill="#777777" opacity="0" letter-spacing="1.5">
+  <text x="350" y="128" text-anchor="middle" class="sub" opacity="0">
     Data Engineer in the making — SQL, Python, systems
-    <animate attributeName="opacity" from="0" to="0.9" dur="1s" begin="2.2s" fill="freeze"/>
+    <animate attributeName="opacity" begin="1.0s" dur="0.6s" to="1" fill="freeze"/>
   </text>
 </svg>
