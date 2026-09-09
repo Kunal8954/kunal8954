@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 45" width="600" height="45">
+  <defs>
+    <filter id="hglow3" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Icon: git merge / PR -->
+  <g opacity="0" transform="translate(20,22)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.3s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="20,32" to="20,22" dur="0.5s" begin="0.3s" fill="freeze"/>
+    <circle cx="-5" cy="-5" r="3" fill="none" stroke="#e74c3c" stroke-width="1.5"/>
+    <circle cx="5" cy="5" r="3" fill="none" stroke="#e74c3c" stroke-width="1.5"/>
+    <circle cx="5" cy="-5" r="3" fill="#e74c3c" opacity="0.8"/>
+    <line x1="5" y1="-2" x2="5" y2="2" stroke="#e74c3c" stroke-width="1.5"/>
+    <line x1="-2" y1="-5" x2="2" y2="-5" stroke="#e74c3c" stroke-width="1.5"/>
+  </g>
+
+  <text x="48" y="28" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff" opacity="0" filter="url(#hglow3)" letter-spacing="0.5">
+    open source
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.5s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="0,10" to="0,0" dur="0.5s" begin="0.5s" fill="freeze"/>
+  </text>
+
+  <line x1="48" y1="35" x2="200" y2="35" stroke="#e74c3c" stroke-width="1.5" opacity="0"
+        stroke-dasharray="152" stroke-dashoffset="152">
+    <animate attributeName="stroke-dashoffset" from="152" to="0" dur="0.8s" begin="0.7s" fill="freeze" calcMode="spline" keySplines="0.42 0 0.58 1"/>
+    <animate attributeName="opacity" from="0" to="0.5" dur="0.8s" begin="0.7s" fill="freeze"/>
+  </line>
+  <circle cx="48" cy="35" r="2" fill="#e74c3c" opacity="0">
+    <animate attributeName="cx" from="48" to="200" dur="0.8s" begin="0.7s" fill="freeze" calcMode="spline" keySplines="0.42 0 0.58 1"/>
+    <animate attributeName="opacity" values="0;0.8;0" dur="0.8s" begin="0.7s" fill="freeze"/>
+  </circle>
+</svg>

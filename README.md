@@ -1,108 +1,221 @@
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Spider-Man Banner"/>
+  <img src="https://raw.githubusercontent.com/Kunal8954/kunal8954/main/assets/hero-banner.svg" width="100%" alt="Kunal — cinematic spider swing banner"/>
 </p>
 
 <br/>
 
 <p align="center">
-  <img src="assets/typing-name.svg" width="500" alt="Kunal - Data Engineer"/>
+  <img src="https://raw.githubusercontent.com/Kunal8954/kunal8954/main/assets/name-typing.svg" width="100%" style="max-width:700px" alt="Kunal — Data Engineer in the making"/>
 </p>
 
 <br/>
 
+<!-- ================================================================ -->
+<!-- WHAT I'M BUILDING -->
+<!-- ================================================================ -->
 <p align="center">
-  <img src="assets/line-reveal.svg" width="500" alt=""/>
+  <img src="https://raw.githubusercontent.com/Kunal8954/kunal8954/main/assets/sec-building.svg" width="100%" style="max-width:600px" alt="What I'm Building"/>
 </p>
 
-<br/>
-
-<!-- ======================== ABOUT ======================== -->
-<p align="center">
-  <img src="assets/section-about.svg" width="250" alt="About"/>
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=3000&pause=1000&color=CCCCCC&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=%F0%9F%A7%A0+Self-taught+Data+Engineer+%2F+SQL+Developer;Project-driven+builder.+I+learn+by+making+things+that+solve+real+problems." alt="Typing SVG" />
-</p>
-
-<p align="center">
-  <em style="color:#555">Curious mind. Clean code. Practical solutions.</em>
-</p>
-
-<br/>
-
-<!-- ======================== WHAT I'M BUILDING ======================== -->
-<p align="center">
-  <img src="assets/section-building.svg" width="320" alt="What I'm Building"/>
-</p>
-
-<table align="center">
+<table align="center" width="100%">
   <tr>
-    <td align="center" width="48%">
-      <a href="https://github.com/Kunal8954/CartEye">
-        <img src="https://img.shields.io/badge/-CartEye-e74c3c?style=for-the-badge&logo=eye&logoColor=white" alt="CartEye"/>
-        <br/><br/>
-        <img src="https://img.shields.io/badge/AI--Powered-Smart%20Billing%20Counter-1a1a2e?style=flat-square&labelColor=e74c3c&color=1a1a2e" alt="AI Billing"/>
-      </a>
-      <br/>
-      <sub>Smart billing counter with AI-driven product recognition</sub>
+    <td align="center" width="50%" valign="top">
+      <h3>
+        <a href="https://github.com/Kunal8954/CartEye">🛒 CartEye</a>
+      </h3>
+      <p align="left">
+        <strong>AI-powered smart billing counter.</strong><br/>
+        Uses computer vision to recognize products, build a cart instantly, and take UPI payments — no manual scanning. Team project with a real test suite and WebSocket-driven live updates.
+      </p>
+      <p align="left" style="color:#888">
+        FastAPI · OpenCV · SQLite · WebSocket · Razorpay UPI · pytest · <em>Team Thunder</em>
+      </p>
     </td>
     <td width="4%"></td>
-    <td align="center" width="48%">
-      <a href="https://github.com/Kunal8954/StockPilot">
-        <img src="https://img.shields.io/badge/-StockPilot-e74c3c?style=for-the-badge&logo=box&logoColor=white" alt="StockPilot"/>
-        <br/><br/>
-        <img src="https://img.shields.io/badge/Flask%2BMySQL-Inventory%20Management-1a1a2e?style=flat-square&labelColor=e74c3c&color=1a1a2e" alt="Flask+MySQL"/>
-      </a>
-      <br/>
-      <sub>Full-stack inventory management system</sub>
+    <td align="center" width="50%" valign="top">
+      <h3>
+        <a href="https://github.com/Kunal8954/StockPilot">📦 StockPilot</a>
+      </h3>
+      <p align="left">
+        <strong>Enterprise inventory management system.</strong><br/>
+        Full CRUD over products and stock, with purchases, sales, reports and a dashboard. Built on raw SQL/MySQL for precise query control — no ORM magic hiding the data layer.
+      </p>
+      <p align="left" style="color:#888">
+        Flask · raw SQL / MySQL · CRUD · reports · dashboard
+      </p>
     </td>
   </tr>
 </table>
 
 <br/>
 
-<!-- ======================== TECH STACK ======================== -->
 <p align="center">
-  <img src="assets/section-tech.svg" width="250" alt="Tech Stack"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL"/>
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://raw.githubusercontent.com/Kunal8954/kunal8954/main/assets/divider.svg" width="100%" style="max-width:600px" alt=""/>
 </p>
 
 <br/>
 
-<!-- ======================== GITHUB STATS ======================== -->
+<!-- ================================================================ -->
+<!-- TECH I WORK WITH -->
+<!-- ================================================================ -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Kunal8954&show_icons=true&theme=dark&bg_color=0d1117&hide_border=true&title_color=e74c3c&icon_color=e74c3c&text_color=c9d1d9&ring_color=e74c3c" alt="GitHub Stats" width="48%"/>
+  <img src="https://raw.githubusercontent.com/Kunal8954/kunal8954/main/assets/sec-tech.svg" width="100%" style="max-width:600px" alt="Tech I Work With"/>
+</p>
+
+<p align="center">
+  <strong style="color:#e74c3c">Languages</strong>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=1a1a2e" alt="Python"/>
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white&labelColor=1a1a2e" alt="SQL"/>
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white&labelColor=1a1a2e" alt="C++"/>
+</p>
+
+<p align="center">
+  <strong style="color:#e74c3c">Backend</strong>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white&labelColor=1a1a2e" alt="Flask"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white&labelColor=1a1a2e" alt="FastAPI"/>
+  <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white&labelColor=1a1a2e" alt="SQLAlchemy"/>
+</p>
+
+<p align="center">
+  <strong style="color:#e74c3c">Databases</strong>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white&labelColor=1a1a2e" alt="MySQL"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white&labelColor=1a1a2e" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white&labelColor=1a1a2e" alt="SQLite"/>
+</p>
+
+<p align="center">
+  <strong style="color:#e74c3c">Data / ETL</strong>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white&labelColor=1a1a2e" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white&labelColor=1a1a2e" alt="NumPy"/>
+  <img src="https://img.shields.io/badge/Spark%2FPySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white&labelColor=1a1a2e" alt="Spark/PySpark (awareness)"/>
+</p>
+
+<p align="center">
+  <strong style="color:#e74c3c">File Formats</strong>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Parquet-50BEF2?style=flat-square&logoColor=white&labelColor=1a1a2e" alt="Parquet"/>
+  <img src="https://img.shields.io/badge/Avro-7A6DA1?style=flat-square&logoColor=white&labelColor=1a1a2e" alt="Avro"/>
+</p>
+
+<p align="center">
+  <strong style="color:#e74c3c">Cloud / Infra</strong>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white&labelColor=1a1a2e" alt="AWS"/>
+</p>
+
+<p align="center">
+  <strong style="color:#e74c3c">Tools</strong>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white&labelColor=1a1a2e" alt="Git"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white&labelColor=1a1a2e" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=1a1a2e" alt="Docker"/>
+  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white&labelColor=1a1a2e" alt="pytest"/>
+</p>
+
+<p align="center">
+  <strong style="color:#e74c3c">Concepts</strong>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/OOP-f04e23?style=flat-square&labelColor=1a1a2e" alt="OOP"/>
+  <img src="https://img.shields.io/badge/Concurrency-f04e23?style=flat-square&labelColor=1a1a2e" alt="Concurrency"/>
+  <img src="https://img.shields.io/badge/SOLID-f04e23?style=flat-square&labelColor=1a1a2e" alt="SOLID"/>
+  <img src="https://img.shields.io/badge/Idempotency-f04e23?style=flat-square&labelColor=1a1a2e" alt="Idempotency"/>
+  <img src="https://img.shields.io/badge/LLD-f04e23?style=flat-square&labelColor=1a1a2e" alt="LLD"/>
+</p>
+
+<p align="center">
+  <strong style="color:#e74c3c">Prior stack (side skills)</strong>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black&labelColor=1a1a2e" alt="React"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white&labelColor=1a1a2e" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white&labelColor=1a1a2e" alt="MongoDB"/>
+</p>
+
+<br/>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Kunal8954/kunal8954/main/assets/divider.svg" width="100%" style="max-width:600px" alt=""/>
+</p>
+
+<br/>
+
+<!-- ================================================================ -->
+<!-- OPEN SOURCE -->
+<!-- ================================================================ -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Kunal8954/kunal8954/main/assets/sec-opensource.svg" width="100%" style="max-width:600px" alt="Open Source"/>
+</p>
+
+<ul style="color:#ccc">
+  <li>
+    🎉 <strong>Merged PR</strong> → <a href="https://github.com/joke2k/faker">joke2k/faker</a> — added <code>ifsc()</code> generator to the <code>en_IN</code> locale (Indian financial system codes).
+  </li>
+</ul>
+
+<br/>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Kunal8954/kunal8954/main/assets/divider.svg" width="100%" style="max-width:600px" alt=""/>
+</p>
+
+<br/>
+
+<!-- ================================================================ -->
+<!-- GITHUB STATS -->
+<!-- ================================================================ -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Kunal8954/kunal8954/main/assets/sec-stats.svg" width="100%" style="max-width:600px" alt="GitHub Stats"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kunal8954&layout=compact&theme=dark&bg_color=0d1117&hide_border=true&title_color=e74c3c&text_color=c9d1d9" width="36%" alt="Top Languages"/>
   &nbsp;&nbsp;
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kunal8954&theme=dark&background=0d1117&hide_border=true&ring=e74c3c&fire=e74c3c&currStreakLabel=e74c3c&sideLabels=c9d1d9" alt="Streak Stats" width="48%"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Kunal8954&show_icons=true&theme=dark&bg_color=0d1117&hide_border=true&title_color=e74c3c&icon_color=e74c3c&text_color=c9d1d9&ring_color=e74c3c" width="48%" alt="GitHub Stats"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kunal8954&theme=dark&background=0d1117&hide_border=true&ring=e74c3c&fire=e74c3c&currStreakLabel=e74c3c&sideLabels=c9d1d9" alt="Streak Stats"/>
 </p>
 
 <br/>
 
-<!-- ======================== CONNECT ======================== -->
 <p align="center">
-  <img src="assets/section-connect.svg" width="200" alt="Connect"/>
+  <img src="https://raw.githubusercontent.com/Kunal8954/kunal8954/main/assets/divider.svg" width="100%" style="max-width:600px" alt=""/>
+</p>
+
+<br/>
+
+<!-- ================================================================ -->
+<!-- FIND ME -->
+<!-- ================================================================ -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Kunal8954/kunal8954/main/assets/sec-findme.svg" width="100%" style="max-width:600px" alt="Find Me"/>
 </p>
 
 <p align="center">
   <a href="https://github.com/Kunal8954">
-    <img src="https://img.shields.io/badge/GitHub-Kunal8954-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/GitHub-%40Kunal8954-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e" alt="GitHub @Kunal8954"/>
   </a>
 </p>
 
 <br/>
 
 <p align="center">
-  <img src="assets/line-reveal.svg" width="500" alt=""/>
+  <img src="https://raw.githubusercontent.com/Kunal8954/kunal8954/main/assets/divider.svg" width="100%" style="max-width:600px" alt=""/>
 </p>
 
 <p align="center">
-  <sub style="color:#444">made with <span style="color:#e74c3c">♥</span> and too much chai</sub>
+  <sub style="color:#555">swinging in, building systems that scale 🕸️</sub>
 </p>

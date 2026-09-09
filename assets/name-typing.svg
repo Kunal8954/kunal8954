@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 100" width="700" height="100">
+  <defs>
+    <!-- Shine gradient mask — diagonal white band -->
+    <linearGradient id="shineBand" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="40%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="48%" stop-color="#ffffff" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="52%" stop-color="#ffffff" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <!-- Text gradient for metallic feel -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#e0e0e0"/>
+      <stop offset="100%" stop-color="#aaaaaa"/>
+    </linearGradient>
+    <!-- Clip for shine sweep over text only -->
+    <clipPath id="textClip">
+      <text x="350" y="52" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" text-anchor="middle" letter-spacing="2">KUNAL</text>
+    </clipPath>
+    <!-- Glow for cursor -->
+    <filter id="cursorGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- ===== TYPING TEXT — "KUNAL" ===== -->
+  <!-- Base text (invisible, used for clip and as base) -->
+  <text x="350" y="52" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" text-anchor="middle" letter-spacing="2" fill="url(#textGrad)" opacity="0">KUNAL
+    <animate attributeName="opacity" to="1" dur="0.01s" begin="0.2s" fill="freeze"/>
+  </text>
+
+  <!-- Individual character reveal (staggered) -->
+  <!-- K -->
+  <text x="222" y="52" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="url(#textGrad)" opacity="0">K
+    <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.2s" fill="freeze"/>
+  </text>
+  <!-- U -->
+  <text x="272" y="52" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="url(#textGrad)" opacity="0">U
+    <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.5s" fill="freeze"/>
+  </text>
+  <!-- N -->
+  <text x="325" y="52" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="url(#textGrad)" opacity="0">N
+    <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.8s" fill="freeze"/>
+  </text>
+  <!-- A -->
+  <text x="380" y="52" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="url(#textGrad)" opacity="0">A
+    <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.1s" fill="freeze"/>
+  </text>
+  <!-- L -->
+  <text x="428" y="52" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="700" fill="url(#textGrad)" opacity="0">L
+    <animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.4s" fill="freeze"/>
+  </text>
+
+  <!-- ===== SHINE/SHEEN SWEEP over text ===== -->
+  <g clip-path="url(#textClip)">
+    <rect x="-200" y="0" width="200" height="100" fill="url(#shineBand)" opacity="0.8">
+      <animateTransform attributeName="transform" type="translate" from="-200,0" to="900,0" dur="3s" begin="2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- ===== BLINKING CURSOR ===== -->
+  <g filter="url(#cursorGlow)">
+    <rect x="455" y="22" width="3" height="34" fill="#e74c3c" opacity="0">
+      <animate attributeName="opacity" values="0;0;0.9;0.9;0;0" dur="1s" begin="1.6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- ===== TAGLINE ===== -->
+  <text x="350" y="80" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="14" text-anchor="middle" fill="#777777" opacity="0" letter-spacing="1.5">
+    Data Engineer in the making — SQL, Python, systems
+    <animate attributeName="opacity" from="0" to="0.9" dur="1s" begin="2.2s" fill="freeze"/>
+  </text>
+
+  <!-- Subtle red underline accent below name -->
+  <line x1="220" y1="60" x2="460" y2="60" stroke="#e74c3c" stroke-width="1.5" opacity="0"
+        stroke-dasharray="240" stroke-dashoffset="240">
+    <animate attributeName="stroke-dashoffset" from="240" to="0" dur="1.2s" begin="1.8s" fill="freeze" calcMode="spline" keySplines="0.42 0 0.58 1"/>
+    <animate attributeName="opacity" from="0" to="0.4" dur="1.2s" begin="1.8s" fill="freeze"/>
+  </line>
+</svg>
