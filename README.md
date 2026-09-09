@@ -187,7 +187,7 @@
 <!-- ================================================================ -->
 <!-- GITHUB STATS -->
 <!-- ================================================================ -->
-<p align="center">
+<!-- <p align="center">
   <img src="https://raw.githubusercontent.com/Kunal8954/kunal8954/main/assets/sec-stats.svg" width="100%" style="max-width:600px" alt="GitHub Stats"/>
 </p>
 
@@ -207,7 +207,7 @@
   <img src="https://raw.githubusercontent.com/Kunal8954/kunal8954/main/assets/divider.svg" width="100%" style="max-width:600px" alt=""/>
 </p>
 
-<br/>
+<br/> -->
 
 <!-- ================================================================ -->
 <!-- FIND ME -->
