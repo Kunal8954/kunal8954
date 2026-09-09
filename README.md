@@ -158,7 +158,7 @@
   <img src="https://raw.githubusercontent.com/Kunal8954/kunal8954/main/assets/sec-opensource.svg" width="100%" style="max-width:600px" alt="Open Source"/>
 </p>
 
-<ul style="color:#ccc">
+
   <li>
     <li>🎉 Merged PR → <a href="https://github.com/joke2k/faker">joke2k/faker</a> — added <code>ifsc()</code> generator to the <code>en_IN</code> locale (Indian financial system codes).</li>
 
