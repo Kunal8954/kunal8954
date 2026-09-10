@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Kunal8954/kunal8954/main/assets/hero-banner.svg" width="100%" alt="Kunal — cinematic spider swing banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:e74c3c&height=250&section=header&text=Kunal&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20Engineer%20in%20the%20making&descAlignY=58&descSize=20" width="100%" alt="Kunal — header banner"/>
 </p>
 
 <br/>
@@ -174,12 +174,6 @@
 <!-- ================================================================ -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/Kunal8954/kunal8954/main/assets/sec-stats.svg" width="100%" style="max-width:600px" alt="GitHub Stats"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kunal8954&layout=compact&theme=dark&bg_color=0d1117&hide_border=true&title_color=e74c3c&text_color=c9d1d9" width="36%" alt="Top Languages"/>
-  &nbsp;&nbsp;
-  <img src="https://github-readme-stats.vercel.app/api?username=Kunal8954&show_icons=true&theme=dark&bg_color=0d1117&hide_border=true&title_color=e74c3c&icon_color=e74c3c&text_color=c9d1d9&ring_color=e74c3c" width="48%" alt="GitHub Stats"/>
 </p>
 
 <p align="center">
