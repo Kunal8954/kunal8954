@@ -4,12 +4,6 @@
 
 <br/>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Kunal8954/kunal8954/main/assets/name-typing.svg" width="100%" style="max-width:700px" alt="Kunal — Data Engineer in the making"/>
-</p>
-
-<br/>
-
 <!-- ================================================================ -->
 <!-- WHAT I'M BUILDING -->
 <!-- ================================================================ -->
