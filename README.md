@@ -159,22 +159,7 @@
 </p>
 
 
-  <li>
-    <li>🎉 Merged PR → <a href="https://github.com/joke2k/faker">joke2k/faker</a> — added <code>ifsc()</code> generator to the <code>en_IN</code> locale (Indian financial system codes).</li>
-
-<li>🎉 Merged PR → <a href="https://github.com/tobymao/sqlglot">tobymao/sqlglot</a> #8284 — preserved quoting of Postgres's one-byte <code>"char"</code> type.</li>
-
-<li>🎉 Merged PR → <a href="https://github.com/tobymao/sqlglot">tobymao/sqlglot</a> #8285 — stopped <code>GROUP BY</code> from consuming query modifiers like LIMIT/OFFSET.</li>
-
-<li>🎉 Merged PR → <a href="https://github.com/tobymao/sqlglot">tobymao/sqlglot</a> #8313 — prefixed Trino <code>JSON_QUERY</code> paths with the lax mode specifier.</li>
-
-<li>🎉 Merged PR → <a href="https://github.com/apache/airflow">apache/airflow</a> #72438 — scoped XComs e2e filter tests by testid.</li>
-
-<li>🎉 Merged PR → <a href="https://github.com/sqlfluff/sqlfluff">sqlfluff/sqlfluff</a> #8441 — added support for <code>IF NOT EXISTS</code> on Oracle <code>CREATE SEQUENCE</code>.</li>
-
-<li>🎉 Merged PR → <a href="https://github.com/apache/superset">apache/superset</a> #43808 — skipped a redundant <code>has_table</code> check on dataset import with no data URI.</li>
-  </li>
-</ul>
+ 
 
 <br/>
 
