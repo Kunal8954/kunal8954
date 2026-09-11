@@ -1,3 +1,8 @@
+
+<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
+<br><br>
+
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:e74c3c&height=250&section=header&text=Kunal&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20Engineer%20in%20the%20making&descAlignY=58&descSize=20" width="100%" alt="Kunal — header banner"/>
 </p>
