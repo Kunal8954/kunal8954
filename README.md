@@ -30,7 +30,7 @@
         <a href="https://github.com/Kunal8954/StockPilot">📦 StockPilot</a>
       </h3>
       <p align="left">
-        <strong>Enterprise inventory management system.</strong><br/>
+        <strong>Enterprise Inventory Management System.</strong><br/>
         Full CRUD over products and stock, with purchases, sales, reports and a dashboard. Built on raw SQL/MySQL for precise query control — no ORM magic hiding the data layer.
       </p>
       <p align="left" style="color:#888">
