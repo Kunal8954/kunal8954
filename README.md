@@ -4,7 +4,7 @@
 
 <br/>
 <!-- ================================================================ -->
-<!-- WHAT I'M BUILDING -->
+<!-- WHAT I'M BUILDING.. -->
 <!-- ================================================================ -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/Kunal8954/kunal8954/main/assets/sec-building.svg" width="100%" style="max-width:600px" alt="WHAT I'M BUILDING"/>
@@ -216,5 +216,5 @@
 </p>
 
 <p align="center">
-  <sub style="color:#555">swinging in, building systems that scale 🕸️</sub>
+  <sub style="color:#555">Got Rusted While Being Dusted 🕸️</sub>
 </p>
