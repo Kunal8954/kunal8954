@@ -7,7 +7,7 @@
 <!-- WHAT I'M BUILDING -->
 <!-- ================================================================ -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Kunal8954/kunal8954/main/assets/sec-building.svg" width="100%" style="max-width:600px" alt="What I'm Building"/>
+  <img src="https://raw.githubusercontent.com/Kunal8954/kunal8954/main/assets/sec-building.svg" width="100%" style="max-width:600px" alt="WHAT I'M BUILDING"/>
 </p>
 
 <table align="center" width="100%">
